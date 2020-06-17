@@ -305,3 +305,8 @@ h4{
 .contenido-centrado{
     max-width: 900px;
 }
+
+/** Blog **/
+.pagina-blog{
+    max-width: 800px;
+}
