@@ -310,3 +310,48 @@ h4{
 .pagina-blog{
     max-width: 800px;
 }
+
+/** Contacto **/
+form p{
+    font-size: 1.4rem;
+}
+legend{
+    font-size: 2.5rem;
+}
+label{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2;
+    display: block;
+}
+
+
+
+
+input:not([type="submit"]), textarea, select {
+    padding: 1rem 0.2rem 1rem 0.2rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+input[type="radio"]{
+    width: auto;
+    margin: 0 0 0 0;
+}
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+textarea{
+    height: 20rem;
+}
+.forma-contacto{
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
